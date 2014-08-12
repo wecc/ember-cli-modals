@@ -5,6 +5,7 @@ export default Ember.Component.extend({
     ok: function() {
       this.$('.modal').modal('hide');
       this.sendAction('ok');
+      return true;
     }
   },
   show: function() {
