@@ -2,6 +2,7 @@
   "predef": {
     "document": true,
     "window": true,
+    "-Promise": true,
     "EmberCliModalsENV": true
   },
   "browser" : true,
